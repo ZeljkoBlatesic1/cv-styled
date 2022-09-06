@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+   margin-top: 0;
+}
+
+.top-container{
+    position: relative;
+    background-color: #A5F1E9;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    margin: -60px 164px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin:37px 30px;
+}
+/* .mountain{
+    position: absolute;
+    margin:67px -281px;
+} */
+.par{
+    /* display: inline-block; */
+    margin: 0 auto;
+}
+.pro{
+    text-decoration: underline;
+    margin: 0 auto;
+} 
+
+ 
+
+
+
+/*
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+*/

@@ -1,51 +1,63 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1{
-   margin-top: 0;
+   margin: 0 auto 14.4px auto;
+   font-family: 'Sacramento', cursive;
+   font-size: 5.625rem;
+   color: #4d6e6e;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #4d6e6e;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #445151;
+}
+a{
+    color:#445151;
 }
 
 .top-container{
     position: relative;
-    background-color: #A5F1E9;
+    background-color: #EEF2E6;
     padding-top: 100px;
 }
 .top-cloud{
     position: absolute;
-    margin: -60px 164px;
+    margin: -79px 205px;
 }
 .bottom-cloud{
     position: absolute;
-    margin:37px 30px;
+    margin: 16px -43px;
 }
-/* .mountain{
-    position: absolute;
-    margin:67px -281px;
-} */
+
 .par{
     /* display: inline-block; */
-    margin: 0 auto;
+    margin: 44px auto;
+    font-size: 1.5rem;
 }
 .pro{
     text-decoration: underline;
     margin: 0 auto;
 } 
-
- 
-
-
-
-/*
 .middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+    margin:22px auto;
 }
-.bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+.programming-img{
+    width: 165px;
+    height: 165px;
 }
-*/
+.car-music{
+    width: 165px;
+    height: 165px;
+}
+.profile-img{
+    width: 165px;
+    height: 165px;
+}

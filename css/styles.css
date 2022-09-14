@@ -19,6 +19,14 @@ h3{
     font-family: 'Montserrat', sans-serif;
     color: #445151;
 }
+hr{
+    border-style: dotted;
+    border-top: 0px;
+    border-width: 6px;
+    margin: 100px auto 100px auto;
+    width: 3%;
+   
+}
 a{
     color:#445151;
 }
@@ -26,7 +34,8 @@ a{
 .top-container{
     position: relative;
     background-color: #EEF2E6;
-    padding-top: 100px;
+    padding-top: 114px;
+   
 }
 .top-cloud{
     position: absolute;
@@ -47,17 +56,72 @@ a{
     margin: 0 auto;
 } 
 .middle-container{
-    margin:22px auto;
+    margin: 100px auto 100px auto;
 }
-.programming-img{
-    width: 165px;
-    height: 165px;
-}
+
 .car-music{
     width: 165px;
     height: 165px;
 }
+.profile{
+    margin: 54px auto 54px auto;
+}
 .profile-img{
     width: 165px;
     height: 165px;
+}
+.skills{
+    margin: 54px auto 54px auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+.programming-img{
+    margin:0px 30px auto auto;
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+.skill-row-par{
+    text-align: justify;
+}
+.car-music{
+    width: 25%;
+    height: 25%;
+    margin:-18px 0 0 30px;
+    float: right;
+}
+.driving-music{
+    text-align: right;
+}
+.bottom-container{
+    background-color: #CFD2CF;
+    padding: 42px 42px 21px 42px;
+}
+.footer-link{
+    margin: auto 5px;
+}
+.button{
+    background-color: #666966;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+.button:hover {
+    background-color: #b8c7b8;
+    color:  #666966;
+}
+.Copyright{
+    margin:42px auto 0 auto;
 }

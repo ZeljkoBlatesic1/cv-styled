@@ -31,88 +31,97 @@ a{
     color:#445151;
 }
 
-.top-container{
+.A-top-container{
     position: relative;
     background-color: #EEF2E6;
     padding-top: 114px;
    
 }
-.top-cloud{
-    position: absolute;
-    margin: -79px 205px;
-}
-.bottom-cloud{
-    position: absolute;
-    margin: 16px -43px;
-}
+    .A-top-cloud{
+        position: absolute;
+        margin: -79px 205px;
+    }
+    .A-par{
+        /* display: inline-block; */
+        margin: 44px auto;
+        font-size: 1.5rem;
+    }
+        .A-pro{
+            text-decoration: underline;
+            margin: 0 auto;
+        }
+    .A-bottom-cloud{
+        position: absolute;
+        margin: 16px -43px;
+    }
 
-.par{
-    /* display: inline-block; */
-    margin: 44px auto;
-    font-size: 1.5rem;
-}
-.pro{
-    text-decoration: underline;
-    margin: 0 auto;
-} 
-.middle-container{
+
+
+.B-middle-container{
     margin: 100px 0px;
 }
-.intro{
-    display: inline-block;
-    margin: 0px auto;
-    width: 30%;
-    line-height: 2;
-}
-.profile{
-    margin: 54px auto 54px auto;
-}
-.profile-img{
-    width: 165px;
-    height: 165px;
-}
-.skills{
-    margin: 54px auto 54px auto;
-}
-.skill-row{
-    width: 50%;
-    height: 149px;
-    margin: 100px auto 0 auto;
-    text-align: left;
-    line-height: 2;
-}
-.programming-img{
-    margin: 14px 39px auto auto;
-    width: 100px;
-    height: 100px;
-    float: left;
-}
-.first-skill{
-    text-align: right;
-    padding-right: 33px;
-}
-.skill-row-prog{
-    width: 379px;
-    float: right;
-    margin-right: 39px;
-}
-.skill-row-par{
-    text-align: justify;
-    width: 379px;
-    float: left;
-    margin: auto auto auto 33px;
-}
-.car-music{
-    width: 100px;
-    height: 100px;
-    margin: 27px 0 0 36px;
-    float: right;
-}
-.driving-music{
-    text-align: left;
-    position: relative;
-    padding-left: 33px;
-}
+    .B-1-profile{
+        margin: 54px auto;
+    }
+    .B-1-profile-img{
+        width: 165px;
+        height: 165px;
+    }
+    .B-1-intro{
+        display: inline-block;
+        margin: 0px auto;
+        width: 30%;
+        line-height: 2;
+    }
+    .B-2-skills{
+        margin: 54px auto 54px auto;
+    }
+        .B-2-skill-row{
+            width: 600px;
+            height: 149px;
+            margin: 100px auto 0 auto;
+            text-align: left;
+            line-height: 2;
+        }
+            .B-2-first-img{
+                float: left;
+                margin: 42px 39px auto 50px;
+                height: 100px;
+                width: 100px;
+            }
+            .B-2-first-skill{
+                text-align: right;
+                padding-right: 33px;
+            }
+            .B-2-par{
+                text-align: justify;
+                width: 370px;
+            }
+            .B-2-first-par{
+                float: right;
+                margin: auto 33px auto auto;
+                /* text-align: justify;
+                width: 370px; */
+            }
+            .B-2-second-img{
+                width: 100px;
+                height: 100px;
+                margin: 27px 0 0 36px;
+                float: right;
+            }
+            .B-2-second-skill{
+                text-align: left;
+                position: relative;
+                padding-left: 33px;
+            }
+            .B-2-second-par{
+                float: left;
+                margin: auto auto auto 33px;
+                /* text-align: justify;
+                width: 370px; */
+            }
+
+
 .bottom-container{
     background-color: #CFD2CF;
     padding: 42px 42px 21px 42px;

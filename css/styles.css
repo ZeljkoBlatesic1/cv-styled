@@ -1,3 +1,7 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     text-align: center;
@@ -51,8 +55,7 @@ a{
             margin: 0 auto;
         }
     .A-bottom-cloud{
-        position: absolute;
-        margin: 16px -43px;
+        position:absolute;
     }
 
 

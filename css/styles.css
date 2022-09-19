@@ -56,12 +56,13 @@ a{
     margin: 0 auto;
 } 
 .middle-container{
-    margin: 100px auto 100px auto;
+    margin: 100px 0px;
 }
-
-.car-music{
-    width: 165px;
-    height: 165px;
+.intro{
+    display: inline-block;
+    margin: 0px auto;
+    width: 30%;
+    line-height: 2;
 }
 .profile{
     margin: 54px auto 54px auto;
@@ -75,27 +76,42 @@ a{
 }
 .skill-row{
     width: 50%;
+    height: 149px;
     margin: 100px auto 0 auto;
     text-align: left;
     line-height: 2;
 }
 .programming-img{
-    margin:0px 30px auto auto;
-    width: 25%;
-    height: 25%;
+    margin: 14px 39px auto auto;
+    width: 100px;
+    height: 100px;
     float: left;
+}
+.first-skill{
+    text-align: right;
+    padding-right: 33px;
+}
+.skill-row-prog{
+    width: 379px;
+    float: right;
+    margin-right: 39px;
 }
 .skill-row-par{
     text-align: justify;
+    width: 379px;
+    float: left;
+    margin: auto auto auto 33px;
 }
 .car-music{
-    width: 25%;
-    height: 25%;
-    margin:-18px 0 0 30px;
+    width: 100px;
+    height: 100px;
+    margin: 27px 0 0 36px;
     float: right;
 }
 .driving-music{
-    text-align: right;
+    text-align: left;
+    position: relative;
+    padding-left: 33px;
 }
 .bottom-container{
     background-color: #CFD2CF;

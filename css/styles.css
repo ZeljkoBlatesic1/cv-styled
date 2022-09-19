@@ -83,13 +83,26 @@ a{
             text-align: left;
             line-height: 2;
         }
-            .B-2-first-img{
-                float: left;
-                margin: 42px 39px auto 50px;
-                height: 100px;
-                width: 100px;
+            .B-2-row-in-row{
+                width: 600px;
+                height: 112px;
             }
+            .B-2-space{
+                position: relative;
+                bottom: 18px;
+            }
+                .B-2-first-img{
+                    float: left;
+                    margin: 5px 45px;
+                    height: 100px;
+                    width: 100px;
+                }
+                .B-2-first-par{
+                    float: right;
+                    margin: 22px 33px auto auto;
+                }            
             .B-2-first-skill{
+                margin-bottom: 0;
                 text-align: right;
                 padding-right: 33px;
             }
@@ -97,29 +110,22 @@ a{
                 text-align: justify;
                 width: 370px;
             }
-            .B-2-first-par{
-                float: right;
-                margin: auto 33px auto auto;
-                /* text-align: justify;
-                width: 370px; */
-            }
-            .B-2-second-img{
-                width: 100px;
-                height: 100px;
-                margin: 27px 0 0 36px;
-                float: right;
-            }
-            .B-2-second-skill{
-                text-align: left;
-                position: relative;
-                padding-left: 33px;
-            }
-            .B-2-second-par{
-                float: left;
-                margin: auto auto auto 33px;
-                /* text-align: justify;
-                width: 370px; */
-            }
+                .B-2-second-img{
+                    float: right;
+                    margin: 5px 45px;
+                    height: 100px;
+                    width: 100px;
+                }
+                .B-2-second-skill{
+                    text-align: left;
+                    position: relative;
+                    padding-left: 33px;
+                }
+                .B-2-second-par{
+                    float: left;
+                    margin: 20px 19px
+
+                }
 
 
 .bottom-container{

@@ -8,6 +8,11 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+a{
+    text-decoration: none;
+    color:#445151;  
+}
+
 h1{
    margin: 0 auto 14.4px auto;
    font-family: 'Sacramento', cursive;
@@ -30,9 +35,6 @@ hr{
     margin: 100px auto 100px auto;
     width: 3%;
    
-}
-a{
-    color:#445151;
 }
 
 .A-top-container{
